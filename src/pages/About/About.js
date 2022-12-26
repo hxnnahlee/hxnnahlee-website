@@ -3,7 +3,16 @@ import "./About.css";
 
 const About = () => {
   return (
-      <div className="about-container">About Page</div>
+    <>
+    <div className="cloud">
+    <img src="./cloud.png" alt="cloud" style={{width: '10%'}}/>
+    </div>
+    <h2>I'm currently a backend software engineer at Disney Streaming. My work involves protecting Disney Streaming's public API's against fraud.</h2> 
+    <h2>I graduated from Lehigh University in 2020 with a Bachelor of Science in Computer Science & a minor in Psychology. </h2>
+    <br></br>
+    <h2>Outside of work, I like to rock climb, sing, play piano, play video games, and crochet :)</h2>
+
+    </>
   );
 };
 

@@ -1,0 +1,12 @@
+import "./Home.css";
+
+const Home = () => {
+  return (
+    <>
+        <img src={'./me.jpg'} className="me-pic" id="me" alt="pic not found"/>
+        <h2>Helloo, I'm a software engineer based out of NYC </h2>
+    </>
+  );
+};
+
+export default Home;

@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/hxnnahlee-website/static/css/main.4995e71d.css",
-    "main.js": "/hxnnahlee-website/static/js/main.18ed0bd3.js",
-    "static/media/Montserrat-Regular.ttf": "/hxnnahlee-website/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/Montserrat-Light.ttf": "/hxnnahlee-website/static/media/Montserrat-Light.02afb26fe72fcc052988.ttf",
-    "static/media/Quicksand-VariableFont_wght.ttf": "/hxnnahlee-website/static/media/Quicksand-VariableFont_wght.92e1d0f3321b53e20d2b.ttf",
-    "index.html": "/hxnnahlee-website/index.html",
-    "main.4995e71d.css.map": "/hxnnahlee-website/static/css/main.4995e71d.css.map",
-    "main.18ed0bd3.js.map": "/hxnnahlee-website/static/js/main.18ed0bd3.js.map"
+    "main.css": "/static/css/main.a8c380c1.css",
+    "main.js": "/static/js/main.18ed0bd3.js",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Montserrat-Light.ttf": "/static/media/Montserrat-Light.02afb26fe72fcc052988.ttf",
+    "static/media/Quicksand-VariableFont_wght.ttf": "/static/media/Quicksand-VariableFont_wght.92e1d0f3321b53e20d2b.ttf",
+    "index.html": "/index.html",
+    "main.a8c380c1.css.map": "/static/css/main.a8c380c1.css.map",
+    "main.18ed0bd3.js.map": "/static/js/main.18ed0bd3.js.map"
   },
   "entrypoints": [
-    "static/css/main.4995e71d.css",
+    "static/css/main.a8c380c1.css",
     "static/js/main.18ed0bd3.js"
   ]
 }

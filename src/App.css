@@ -1,3 +1,18 @@
+@font-face {
+	font-family: "Quicksand";
+	src: url("fonts/Quicksand-VariableFont_wght.ttf");
+	}
+
+@font-face {
+	font-family: "Montserrat";
+	src: url("fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Montserrat-Light";
+	src: url("fonts/Montserrat-Light.ttf");
+}
+
 .App {
   text-align: center;
 }
@@ -28,6 +43,106 @@
   color: #61dafb;
 }
 
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+h1 {
+	color: #f6f4e6;
+	font-size: 3rem;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	letter-spacing: .2em;
+	text-shadow: 0 0 5px #fff, 0 0 20px #fff;
+	margin-bottom: 7px;
+}
+
+h2 {
+	color: #f6f4e6;
+	text-align: center;
+	letter-spacing: .01em;
+	margin-left: 30%;
+	margin-right: 30%;
+	font-size: .9rem;
+	font-family: 'Montserrat-Light', sans-serif;
+	letter-spacing: .07em;
+}
+
+
+.helloworld {
+	margin-top: 2%;
+	font-family: 'Courier New', Courier, monospace;
+	text-shadow: 0.1rem 0.1rem #091d2b
+}
+
+p {
+	color: rgb(146, 107, 197);
+	text-align: center;
+	font-family: 'Montserrat-Light', sans-serif;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+ul {
+	color: rgb(146, 107, 197);
+	font-size: .6rem;
+	text-align: center;
+	font-family: 'Montserrat-Light', sans-serif;
+}
+
+#me {
+	border-radius: 25px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	width: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+}
+
+.container {
+	text-align: center;
+}
+
+.jobspacing {
+	margin-bottom: 10px;
+}
+
+.jobtitlesize {
+	font-size: 1.3rem;
+}
+
+body {
+  background: #272727;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navMenu {
+	text-align: center;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+.navMenu a {
+  color: #f6f4e6;
+  text-decoration: none;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 80px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+  color: #fddb3a;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

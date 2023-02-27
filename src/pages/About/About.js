@@ -23,7 +23,7 @@ const About = () => {
       <div className="crochet-pics">
         <h2>Some of my crochet projects :)</h2>
         <br></br>
-        <img src="./IMG_6674.jpg" alt="crochet" style={{ width: "10%" }} />
+        <img src="./IMG_0978.jpg" alt="crochet" style={{ width: "10%" }} />
         <img src="./IMG_6750.jpg" alt="crochet" style={{ width: "10%" }} />
         <img src="./IMG_9352.jpg" alt="crochet" style={{ width: "10%" }} />
       </div>

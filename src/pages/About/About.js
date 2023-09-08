@@ -4,7 +4,11 @@ const About = () => {
   return (
     <>
       <div className="cloud">
-        <img src="./cloud.png" alt="cloud" style={{ width: "10%" }} />
+        <img
+          src="./hxnnahlee-website/cloud.png"
+          alt="cloud"
+          style={{ width: "10%" }}
+        />
       </div>
       <h2>
         I'm currently a backend software engineer at Disney Streaming; My work
@@ -25,9 +29,21 @@ const About = () => {
       <div className="crochet-pics">
         <h2>Some of my crochet projects :)</h2>
         <br></br>
-        <img src="./mushroom.jpg" alt="crochet" style={{ width: "10%" }} />
-        <img src="./IMG_6750.jpg" alt="crochet" style={{ width: "10%" }} />
-        <img src="./IMG_9352.jpg" alt="crochet" style={{ width: "10%" }} />
+        <img
+          src="./hxnnahlee-website/mushroom.jpg"
+          alt="crochet"
+          style={{ width: "10%" }}
+        />
+        <img
+          src="./hxnnahlee-website/IMG_6750.jpg"
+          alt="crochet"
+          style={{ width: "10%" }}
+        />
+        <img
+          src="./hxnnahlee-website/IMG_9352.jpg"
+          alt="crochet"
+          style={{ width: "10%" }}
+        />
       </div>
     </>
   );

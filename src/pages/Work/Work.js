@@ -7,10 +7,34 @@ const Work = () => {
         <img src="./mickey.png" alt="mickey" style={{ width: "20%" }} />
       </div>
       <h2 className="jobspacing jobtitlesize">
-        Software Engineer II - Disney Streaming
+        Software Engineer II: Disney Streaming
       </h2>
-      <h2>Backend Software Engineer - Disney Streaming, API Services Team.</h2>
-      <h2>Focusing on fraud prevention for Disney Streaming's public APIs.</h2>
+      <h2>
+        Develop and maintain critical services for safeguarding public APIS of
+        streaming apps (Disney+, Hulu, Espn) under Disney Streaming.
+      </h2>
+      <br></br>
+      <br></br>
+      <h2>Notable Projects:</h2>
+      <ul>
+        <li>
+          Spearheaded partnership with the Data Engineering team, designing
+          infrastructure for data persistence to S3
+        </li>
+        <li>
+          Improved fraud pipeline efficiency by rearchitecting AWS WAF and
+          DynamoDB, catching 100K+ repeat offenders
+        </li>
+        <li>
+          Led the development and implementation of APIs for 5+ external teams
+          to seamlessly interact with fraud pipeline
+        </li>
+        <li>
+          Pioneered implementation for canary deployment pipeline in Spinnaker
+          with Istio for Kubernetes-based application
+        </li>
+      </ul>
+      <br></br>
       <h2>Technologies Used:</h2>
       <ul class="jobspacing">
         <li>AWS Kinesis</li>
@@ -20,19 +44,22 @@ const Work = () => {
         <li>Redis</li>
         <li>Jenkins</li>
         <li>Apache Flink</li>
-        <li>HTTP4s</li>
         <li>Docker</li>
       </ul>
 
-      <h2 className="jobspacing jobtitlesize">Software Developer Intern</h2>
-      <h2>Software Developer Intern for Orbweaver Sourcing</h2>
+      <h2 className="jobspacing jobtitlesize">
+        Software Developer Intern: Orbweaver Sourcing
+      </h2>
+      <br></br>
       <h2>Notable Projects:</h2>
       <ul>
         <li>
-          Migrating outdated Product Information Management platform to a
-          micro-service driven architecture
+          Leveraged Ruby on Rails to lead the migration of a substantial
+          codebase to a highly scalable, microservice-driven architecture on
+          AWS.
         </li>
       </ul>
+      <br></br>
     </>
   );
 };

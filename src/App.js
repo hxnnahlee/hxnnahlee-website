@@ -11,7 +11,6 @@ function App() {
       <header className="App-header">
         <div className="marquee">
           <div className="marquee-text">
-            "The world will accept the judgement that you place on yourself."
             "Until you make the unconscious conscious, it will direct your life
             and you will call it fate."
           </div>

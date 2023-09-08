@@ -25,11 +25,7 @@ const About = () => {
       <div className="crochet-pics">
         <h2>Some of my crochet projects :)</h2>
         <br></br>
-<<<<<<< HEAD
         <img src="./mushroom.jpg" alt="crochet" style={{ width: "10%" }} />
-=======
-        <img src="./IMG_0978.jpg" alt="crochet" style={{ width: "10%" }} />
->>>>>>> 80805a9b4b93c0671564cc6943a42593a946be3c
         <img src="./IMG_6750.jpg" alt="crochet" style={{ width: "10%" }} />
         <img src="./IMG_9352.jpg" alt="crochet" style={{ width: "10%" }} />
       </div>

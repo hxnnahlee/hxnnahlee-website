@@ -4,11 +4,7 @@ const Work = () => {
   return (
     <>
       <div className="mickey">
-        <img
-          src="./hxnnahlee-website/mickey.png"
-          alt="mickey"
-          style={{ width: "20%" }}
-        />
+        <img src="./mickey.png" alt="mickey" style={{ width: "20%" }} />
       </div>
       <h2 className="jobspacing jobtitlesize">
         Software Engineer II: Disney Streaming

@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/hxnnahlee-website/static/css/main.5845191a.css",
-    "main.js": "/hxnnahlee-website/static/js/main.b795809d.js",
+    "main.js": "/hxnnahlee-website/static/js/main.92d43dc4.js",
     "static/media/Montserrat-Regular.ttf": "/hxnnahlee-website/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Montserrat-Light.ttf": "/hxnnahlee-website/static/media/Montserrat-Light.02afb26fe72fcc052988.ttf",
     "static/media/Quicksand-VariableFont_wght.ttf": "/hxnnahlee-website/static/media/Quicksand-VariableFont_wght.92e1d0f3321b53e20d2b.ttf",
     "index.html": "/hxnnahlee-website/index.html",
     "main.5845191a.css.map": "/hxnnahlee-website/static/css/main.5845191a.css.map",
-    "main.b795809d.js.map": "/hxnnahlee-website/static/js/main.b795809d.js.map"
+    "main.92d43dc4.js.map": "/hxnnahlee-website/static/js/main.92d43dc4.js.map"
   },
   "entrypoints": [
     "static/css/main.5845191a.css",
-    "static/js/main.b795809d.js"
+    "static/js/main.92d43dc4.js"
   ]
 }

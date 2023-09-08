@@ -17,9 +17,6 @@ const NavBar = () => {
         <a href="https://github.com/hxnnahlee">
           <div>Code</div>
         </a>
-        <a href="./resume-new.pdf">
-          <div>Resume</div>
-        </a>
       </div>
     </>
   );

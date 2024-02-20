@@ -6,15 +6,18 @@ const Work = () => {
       <div className="mickey">
         <img src="./mickey.png" alt="mickey" style={{ width: "20%" }} />
       </div>
+      <h2 className="jobtitlesize">
+        Disney Streaming
+      </h2>
       <h2 className="jobspacing jobtitlesize">
-        Software Engineer II: Disney Streaming
+        Software Engineer II
       </h2>
       <h2>
         Develop and maintain critical services for safeguarding public APIS of
-        streaming apps (Disney+, Hulu, Espn) under Disney Streaming.
+        streaming apps (Disney+, Hulu, Espn).
       </h2>
-      <br></br>
-      <br></br>
+      <br>
+      </br>
       <h2>Notable Projects:</h2>
       <ul>
         <li>
@@ -22,41 +25,39 @@ const Work = () => {
           infrastructure for data persistence to S3
         </li>
         <li>
-          Improved fraud pipeline efficiency by rearchitecting AWS WAF and
-          DynamoDB, catching 100K+ repeat offenders
-        </li>
-        <li>
-          Led the development and implementation of APIs for 5+ external teams
-          to seamlessly interact with fraud pipeline
+            Led the development and implementation of APIs for 5+ external teams to seamlessly interact with fraud pipeline;
+            worked directly with external teams to gather requirements for API responses
         </li>
         <li>
           Pioneered implementation for canary deployment pipeline in Spinnaker
           with Istio for Kubernetes-based application
         </li>
+        <li>
+            Created various Scala Spark jobs hosted on Databricks to aggregate
+            terabytes of data for machine learning model
+        </li>
+        <li>
+            Created a pipeline integrating Redis, AWS WAF, and DynamoDB to detect and intercept repeated offenders
+        </li>
       </ul>
       <br></br>
       <h2>Technologies Used:</h2>
-      <ul class="jobspacing">
-        <li>AWS Kinesis</li>
-        <li>AWS DynamoDB</li>
-        <li>AWS Lambda</li>
-        <li>AWS WAF</li>
-        <li>Redis</li>
-        <li>Jenkins</li>
-        <li>Apache Flink</li>
-        <li>Docker</li>
-      </ul>
+      <p class="jobspacing techused">AWS Kinesis, DynamoDB, Lambda, WAF, Cloudformation, Cloudwatch, Redis, Jenkins, Apache Flink,
+      Docker, Databricks, Spark</p>
 
-      <h2 className="jobspacing jobtitlesize">
-        Software Developer Intern: Orbweaver Sourcing
-      </h2>
       <br></br>
+      <h2 className="jobtitlesize">
+        Orbweaver
+      </h2>
+      <h2 className="jobspacing jobtitlesize">
+        Software Developer Intern
+      </h2>
       <h2>Notable Projects:</h2>
       <ul>
         <li>
           Leveraged Ruby on Rails to lead the migration of a substantial
           codebase to a highly scalable, microservice-driven architecture on
-          AWS.
+          AWS
         </li>
       </ul>
       <br></br>

@@ -58,6 +58,7 @@ h2 {
 
 
 .helloworld {
+	color: rgb(146, 107, 197);
 	margin-top: 2%;
 	font-family: 'Courier New', Courier, monospace;
 	text-shadow: 0.1rem 0.1rem #091d2b

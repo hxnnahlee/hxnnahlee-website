@@ -18,7 +18,7 @@ const About = () => {
       <br></br>
       <h2>
         Outside of work, I like to rock climb, sing, play piano, play video
-        games, and crochet !!
+        games, and crochet !
       </h2>
       <br></br>
 

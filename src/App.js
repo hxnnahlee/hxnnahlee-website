@@ -12,7 +12,7 @@ function App() {
         <div className="marquee">
           <div className="marquee-text">
             "Until you make the unconscious conscious, it will direct your life
-            and you will call it fate."
+            and you will call it fate"
           </div>
         </div>
         <p className="helloworld"> hello world </p>

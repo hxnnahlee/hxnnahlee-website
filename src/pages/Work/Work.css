@@ -7,15 +7,30 @@
 }
 
 p {
-	color: rgb(146, 107, 197);
 	text-align: center;
 	font-family: 'Montserrat-Light', sans-serif;
 	font-size:1.2rem;
 }
 
 ul {
-	color: rgb(146, 107, 197);
 	font-size: .8rem;
 	text-align: center;
 	font-family: 'Montserrat-Light', sans-serif;
+    padding-left: 0;
+    padding-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
+
+ul li {
+  margin-left: 80px;
+  margin-bottom: 3px;
+  word-wrap: break-word;
+  text-align: left;
+}
+
+.techused {
+	font-size: .8rem;
+}
+

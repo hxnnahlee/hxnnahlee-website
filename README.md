@@ -73,3 +73,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## Deployment
 
 This project is deployed using Github Deployments.
+`npm run deploy`

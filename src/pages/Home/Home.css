@@ -25,16 +25,15 @@
 	letter-spacing: 0.05em;
   }
   
-  .about {
+  .about-text {
 	font-size: 0.95rem;
 	color: #9ca3af;
-	line-height: 1.6;
-	margin-bottom: 0;   /* 🔥 remove separation */
-	font-style: italic; /* ✨ makes it feel like a lead-in */
+	font-style: italic;
+	margin-bottom: 4px;   /* 👈 VERY SMALL GAP */
   }
   
   .fun {
 	font-size: 0.95rem;
-	color: #6b6b6b;   /* slightly darker so it stands out */
-	font-style: normal;
+	color: #6b6b6b;
+	margin-top: 0;       /* 👈 removes extra space */
   }

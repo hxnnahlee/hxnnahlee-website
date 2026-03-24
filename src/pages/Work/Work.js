@@ -9,8 +9,12 @@ const Work = () => {
 
       {/* DISNEY */}
       <div className="job">
-        <p className="company">Disney Streaming</p>
-        <p className="role">Software Engineer II</p>
+      <p className="company">Disney Streaming</p>
+
+      <div className="role-row">
+        <p className="role">Software Engineer</p>
+        <p className="date">2020 - 2025</p>
+      </div>
 
         <p className="description">
           Develop and maintain critical services for safeguarding public APIS of
@@ -30,16 +34,12 @@ const Work = () => {
             external teams to gather requirements for API responses
           </li>
           <li>
-            Pioneered implementation for canary deployment pipeline in Spinnaker
-            with Istio for Kubernetes-based application
-          </li>
-          <li>
             Created various Scala Spark jobs hosted on Databricks to aggregate
             terabytes of data for machine learning model
           </li>
           <li>
             Created a pipeline integrating Redis, AWS WAF, and DynamoDB to detect
-            and intercept repeated offenders
+            and intercept repeated bad actors
           </li>
         </ul>
 
@@ -53,8 +53,12 @@ const Work = () => {
 
       {/* ORBWEAVER */}
       <div className="job">
-        <p className="company">Orbweaver</p>
-        <p className="role">Software Developer Intern</p>
+      <p className="company">Orbweaver</p>
+
+        <div className="role-row">
+          <p className="role">Software Developer Intern</p>
+          <p className="date">2020</p>
+        </div>
 
         <p className="section-title">Notable Projects:</p>
 

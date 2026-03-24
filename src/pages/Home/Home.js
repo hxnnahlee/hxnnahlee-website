@@ -10,12 +10,13 @@ const Home = () => {
       <p className="intro">
         backend engineer in nyc ✿
       </p>
-      <p className="about">
-      my simple pleasures . . .
-      <span className="fun">
-        {" "}🍜 pho • 🎤 karaoke • 🐶 dogs that look like carpets • 🎮 word hunt
-      </span>
-    </p>
+      <p className="about-text">
+        my simple pleasures . . .
+      </p>
+
+      <p className="fun">
+        🍜 pho • 🎤 karaoke • 🐶 dogs that look like carpets • 🎮 word hunt
+      </p>
     </div>
   );
 };

@@ -18,6 +18,7 @@
   padding: 30px 20px;
   border-radius: 16px;
   background: rgba(255, 255, 255, 0.6);
+  text-align: center;
 }
 
 /* TITLES */
@@ -81,4 +82,18 @@ ul li::before {
   font-size: 0.85rem;
   color: #6b7280;
   line-height: 1.5;
+}
+
+.role-row {
+  display: inline-flex;   /* key change */
+  align-items: baseline;  /* aligns text nicely */
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.date {
+  font-size: 0.8rem;
+  color: #9ca3af;
+  position: relative;
+  top: 1px;   /* tiny nudge = fixes visual misalignment */
 }

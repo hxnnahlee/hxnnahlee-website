@@ -74,3 +74,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 This project is deployed using Github Deployments.
 `npm run deploy`
+
+If you run into issues:
+Settings -> pages -> custom domain 

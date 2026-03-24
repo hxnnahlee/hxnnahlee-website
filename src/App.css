@@ -18,15 +18,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: transparent;
+	color: #1a1a1a;
+  }
 
 * {
 	margin: 0;
@@ -36,64 +35,42 @@
 }
 
 h1 {
-	color: #f6f4e6;
-	font-size: 3rem;
-	text-align: center;
+	color: #771111;
+	font-size: 3.2rem;
 	font-family: 'Quicksand', sans-serif;
-	letter-spacing: .2em;
-	text-shadow: 0 0 5px #fff, 0 0 20px #fff;
-	margin-bottom: 7px;
-}
+	letter-spacing: 0.05em;
+	margin-bottom: 10px;
+  }
 
-h2 {
-	color: #f6f4e6;
+  h2 {
+	color: #381313;
 	text-align: center;
-	letter-spacing: .01em;
-	margin-left: 30%;
-	margin-right: 30%;
-	font-size: .9rem;
+	font-size: 1rem;
 	font-family: 'Montserrat-Light', sans-serif;
-	letter-spacing: .07em;
-}
-
+	letter-spacing: 0.05em;
+	max-width: 600px;
+	margin: 0 auto 20px;
+  }
 
 .helloworld {
-	color: rgb(146, 107, 197);
-	margin-top: 2%;
-	font-family: 'Courier New', Courier, monospace;
-	text-shadow: 0.1rem 0.1rem #091d2b
-}
+	color: #e11d48;
+	margin-top: 10px;
+	font-size: 1rem;
+	font-family: 'Montserrat-Light', sans-serif;
+	letter-spacing: 0.08em;
+  }
 
 .container {
 	text-align: center;
 }
 
 body {
-  background: #272727;
-  font-family: "Montserrat", sans-serif;
-}
+	background: #fff9fb; /* soft pink */
+	font-family: "Montserrat", sans-serif;
+	color: #1a1a1a;
+  }
 
-.navMenu {
-	text-align: center;
-	margin-bottom: 15px;
-	position: relative;
-}
 
-.navMenu a {
-  color: #f6f4e6;
-  text-decoration: none;
-  font-size: 0.8em;
-  text-transform: uppercase;
-  font-weight: 500;
-  display: inline-block;
-  width: 80px;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-
-.navMenu a:hover {
-  color: #fddb3a;
-}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -124,4 +101,12 @@ body {
 	animation: animate 30s linear infinite; 
 	font-size: .8rem;
 	text-align: center;
+	color: #e4c37b;
+}
+
+.divider {
+	width: 40px;
+	height: 2px;
+	background: #fda4af;
+	margin: 12px auto 20px;
 }

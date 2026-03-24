@@ -5,7 +5,7 @@
 }
 
 .navbar-container a {
-  color: #f6f4e6;
+  color: #6e0a0a;
   text-decoration: none;
   font-size: 0.8em;
   text-transform: uppercase;
@@ -17,5 +17,5 @@
 }
 
 .navbar-container a:hover {
-  color: #f9e891;
+  color: #e756d4;
 }

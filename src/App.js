@@ -15,8 +15,10 @@ function App() {
             and you will call it fate"
           </div>
         </div>
-        <p className="helloworld"> hello world </p>
-        <h1>hannah lee</h1>
+        <p className="helloworld">
+  backend engineer in nyc ✿
+</p>        <h1>hannah lee</h1>
+<div className="divider" />
         <BrowserRouter>
           <NavBar />
           <Routes>

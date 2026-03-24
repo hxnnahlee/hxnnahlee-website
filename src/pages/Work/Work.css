@@ -1,36 +1,84 @@
-.jobspacing {
-	margin-bottom: 10px;
+.work {
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 0 20px;
+  text-align: center;
 }
 
-.jobtitlesize {
-	font-size: 1.3rem;
+/* MICKEY */
+.mickey img {
+  width: 140px;
+  margin-bottom: 20px;
+  opacity: 0.9;
 }
 
-p {
-	text-align: center;
-	font-family: 'Montserrat-Light', sans-serif;
-	font-size:1.2rem;
+/* JOB CARD */
+.job {
+  margin-bottom: 50px;
+  padding: 30px 20px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.6);
 }
 
+/* TITLES */
+.company {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 4px;
+}
+
+.role {
+  font-size: 0.95rem;
+  color: #e11d48;
+  margin-bottom: 16px;
+}
+
+/* DESCRIPTION */
+.description {
+  font-size: 0.95rem;
+  color: #4b5563;
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+/* SECTION TITLES */
+.section-title {
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  color: #9ca3af;
+  margin: 20px 0 10px;
+  text-transform: uppercase;
+}
+
+/* BULLETS */
 ul {
-	font-size: .8rem;
-	text-align: center;
-	font-family: 'Montserrat-Light', sans-serif;
-    padding-left: 0;
-    padding-left: 0;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 10px;
+  max-width: 500px;
 }
 
 ul li {
-  margin-left: 80px;
-  margin-bottom: 3px;
-  word-wrap: break-word;
   text-align: left;
+  font-size: 0.9rem;
+  color: #4b5563;
+  margin-bottom: 8px;
+  line-height: 1.5;
+  position: relative;
+  padding-left: 16px;
 }
 
+ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #fda4af;
+}
+
+/* TECH */
 .techused {
-	font-size: .8rem;
+  font-size: 0.85rem;
+  color: #6b7280;
+  line-height: 1.5;
 }
-

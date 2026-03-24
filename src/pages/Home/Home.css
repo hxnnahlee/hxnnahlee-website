@@ -1,11 +1,40 @@
-#me {
-	border-radius: 25px;
-	border: 1px solid #ddd;
-	border-radius: 4px;
-	padding: 5px;
-	width: 150px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 15px;
-}
+.home {
+	max-width: 600px;
+	margin: 40px auto;
+	text-align: center;
+	padding: 0 20px;
+  }
+  
+  /* PROFILE PIC */
+  #me {
+	width: 140px;
+	border-radius: 20px;
+	margin-bottom: 20px;
+	transition: transform 0.2s ease;
+  }
+  
+  #me:hover {
+	transform: scale(1.03);
+  }
+  
+  /* TEXT STYLES */
+  .intro {
+	font-size: 1.1rem;
+	color: #e11d48;
+	margin-bottom: 20px;
+	letter-spacing: 0.05em;
+  }
+  
+  .about {
+	font-size: 0.95rem;
+	color: #9ca3af;
+	line-height: 1.6;
+	margin-bottom: 0;   /* 🔥 remove separation */
+	font-style: italic; /* ✨ makes it feel like a lead-in */
+  }
+  
+  .fun {
+	font-size: 0.95rem;
+	color: #6b6b6b;   /* slightly darker so it stands out */
+	font-style: normal;
+  }
